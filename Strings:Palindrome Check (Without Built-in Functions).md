@@ -13,18 +13,16 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 ```
-string="google" 
-
-if string==string[::-1]: 
-
-   print ("The entered string is palindrome")
-
-else: 
-
-   print ("The entered string is not palindrome")
+s = "google"
+rev = s[::-1]
+if s == rev:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
 ```
+
 ## Output
-![WhatsApp Image 2025-12-27 at 10 47 22 PM](https://github.com/user-attachments/assets/2816eb7e-8602-46b9-a8e2-495e9e1cd044)
+![image](https://github.com/user-attachments/assets/69144367-a1f4-4b4f-b816-1abca2d04fd8)
 
 ## Result
-Thus the  given program is verified and executed successfully.
+Therefore the given Python program has been executed successfully and the output has been verified.
