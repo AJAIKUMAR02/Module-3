@@ -1,30 +1,32 @@
-# Strings-Palindrome Check in Python (Without Built-in Functions)
+# Tuple in Python: Check Element Existence
 
 ## 🎯 Aim
-To write a Python program to check whether the string `"google"` is a **palindrome** or not, without using built-in palindrome checking functions.
+To write a Python program that checks if the element `'n'` and the element `8` exist within a given tuple.
 
 ## 🧠 Algorithm
-1. Assign the string `"google"` to a variable.
-2. Reverse the string manually using slicing (`[::-1]`).
-3. Compare the original string with the reversed string.
-   - If they are equal, print that the string is a palindrome.
-   - Otherwise, print that it is not a palindrome.
-4. Execute the program.
+1. Define a tuple `x` with some letters and numbers.
+2. Use the `in` operator to check if the string `'n'` exists within the tuple.
+3. Use the `in` operator to check if the integer `8` exists within the tuple.
+4. Print the results.
 
 ## 🧾 Program
 ```
-string="google" 
+x = ('a', 'b', 'n', 5, 8, 'z')
 
-if string==string[::-1]: 
+if 'n' in x:
+    print("'n' is present in the tuple.")
+else:
+    print("'n' is not present in the tuple.")
 
-   print ("The entered string is palindrome")
 
-else: 
+if 8 in x:
+    print("8 is present in the tuple.")
+else:
+    print("8 is not present in the tuple.")
 
-   print ("The entered string is not palindrome")
 ```
 ## Output
-![WhatsApp Image 2025-12-27 at 10 47 22 PM](https://github.com/user-attachments/assets/2816eb7e-8602-46b9-a8e2-495e9e1cd044)
+![image](https://github.com/user-attachments/assets/50fbf17f-28ea-471f-aec6-eed8cfac3fe1)
 
 ## Result
-Thus the  given program is verified and executed successfully.
+Therefore the given Python program has been executed successfully and the output has been verified.
