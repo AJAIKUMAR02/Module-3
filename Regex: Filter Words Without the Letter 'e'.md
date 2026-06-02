@@ -16,18 +16,18 @@ To write a Python program that filters out and returns all elements from a list 
 ## 🧾 Program
 ```
 import re
-l1=[] 
 
-items=['goal', 'new', 'user', 'sit', 'eat', 'dinner'] 
-for i in items: 
+l1 = []
 
-   if not re.search(r"e",i): 
-      l1.append(i) 
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+for i in items:
+    if not re.search(r"e", i):
+        l1.append(i)
 
-print(l1)
+print("Words without the letter 'e':", l1)
 ```
 ## Output
-![WhatsApp Image 2025-12-27 at 10 43 38 PM](https://github.com/user-attachments/assets/77f5db4d-74a1-468e-b82f-d37537a9ebe1)
+![image](https://github.com/user-attachments/assets/c1d756f1-1bf7-4a3a-a309-dc82300ca159)
 
 ## Result
-Thus the prgram has been successfully executed.
+Therefore the Python program has been executed successfully and the output has been verified.
